@@ -18,7 +18,7 @@
 }
 
 h1{ padding-top: 20px;}
-
+h3{ padding: 1rem;}
 header{
     background: rgba(107, 97, 97, 0.233);
     text-align: center;
@@ -26,10 +26,17 @@ header{
     
 }
 
+p.tag-col{
+    color:rgb(204, 98, 36);
+    padding: 1rem;
+    text-align: center;
+    font-size:1.2rem;
+}
+
 a:hover{
     transition: 0.1s;
     border-top: 5px solid rgba(230, 125, 28, 0.233);
-    color: orangered;
+    color: rgb(119, 49, 9);
     text-decoration: underline;
 }
 
@@ -37,14 +44,19 @@ a:hover{
     list-style: none;
 }
 
+
 .nav-a{
     display: block;
     background: white;
     margin: 20px auto;
-    padding: 15px 15px 15px 15px;
+    padding: 10px 15px 15px 15px;
     color: black;
     font-weight: bold;
     text-decoration: none;
+}
+
+.nav{
+    margin: 15px;;
 }
 
 header img{
@@ -73,9 +85,22 @@ section{
     color: rgb(26, 26, 145);
 }
 
-#main-portfolio{
+#main-portfolio, #Skills{
     margin: 2.3rem auto;
+    text-align: center;
 }
+
+.Skills{
+    width:100%;
+    text-align: center;
+    margin: auto;
+    border-top: 1px solid rgb(241, 232, 232);
+}
+
+.Skills img{
+    width:30%;
+}
+
 
 section{
     font-family: "Scope One", Georgia, 'Times New Roman', Times, serif;
@@ -103,6 +128,17 @@ footer{
     margin: 20px 0;
     padding: 10px;
 }
+
+.footer-content ul{
+    padding: 1.2rem 0 0 0;
+}
+
+.footer-content ul li{
+    padding-top: 1.8rem;
+    padding-bottom:0;
+}
+
+
 
 .footer-container2 {
     border-top: 1px solid rgba(160, 154, 154, 0.233);
@@ -136,7 +172,7 @@ footer{
 
     .nav-a{
         background: none;
-        font-weight: 1rem;
+        font-weight: bold;
         font-size: 1rem;
     }
 
@@ -167,6 +203,15 @@ h3{
     padding: 1rem 1rem;
 }
 
+.center{
+    float:none;
+    margin: auto;
+}
+
+.Skills{
+    width:80%;
+}
+
 .footer-content p{
     text-align: center;
     width:60%;
@@ -178,14 +223,6 @@ h3{
     width: 100%;
 }
 
-.footer-content ul{
-    padding: 1.2rem 0 0 0;
-}
-
-.footer-content ul li{
-    padding-top: 1.8rem;
-    padding-bottom:0;
-}
 
 .back-top{
     display:none;
@@ -240,6 +277,14 @@ h3{
         padding: 10px 30px;
     }
 
+    .center{
+        float:left;
+    }
+    
+    .Skills{
+        width:100%;
+    }
+    
 }
 
 
