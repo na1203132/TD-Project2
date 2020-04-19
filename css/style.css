@@ -49,15 +49,17 @@ a:hover{
     display: block;
     background: white;
     margin: 20px auto;
-    padding: 10px 15px 15px 15px;
+    padding: 13px 15px 15px 15px;
     color: black;
     font-weight: bold;
     text-decoration: none;
 }
 
 .nav{
-    margin: 15px;;
+    margin: 15px;
 }
+
+
 
 header img{
  width:70%
@@ -176,6 +178,10 @@ footer{
         font-size: 1rem;
     }
 
+    .nav{
+        margin: 0;
+    }
+    
 .tag {
     margin-bottom:40px;
 }
@@ -256,7 +262,8 @@ h3{
         float: right;
     }
     .big-screen{
-        margin: auto 10px;
+        width:93%;
+        margin: auto;
         
     }
     .col{
@@ -267,6 +274,9 @@ h3{
         padding: 1rem 1rem;
     }
 
+    p.tag{
+     padding: 0 30px;
+    }
     .nav-li{
         margin-right:0;
         margin-left:1.3rem;
