@@ -3,61 +3,63 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
         <title>Portfolio</title>
     </head>
 
     <body class="clearfix">
         <header class="clearfix">
-            <nav class="main-nav">
+            <div class="big-screen">
+            <nav class="main-nav clearfix">
                 <h1>Student Name</h1>
                 <ul class="nav">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#main-portfolio">PORTFOLIO</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                    <li class="nav-li"><a class="nav-a" href="#">HOME</a></li>
+                    <li class="nav-li"><a class="nav-a" href="#main-portfolio">PORTFOLIO</a></li>
+                    <li class="nav-li"><a class="nav-a" href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
-            <div class="tag">
-                <img src="images/responsive-layout-profile.png" alt="Profile Photo">
-                <p>Hi! I'm a front end developer who loves responsive design and css . I recently finished a degree in front-end web development at Treehouse and I am excited to pull all my skills to use</p>
+            <div class="tag clearfix">
+                <img class = "tag-col"src="images/responsive-layout-profile.png" alt="Profile Photo">
+                <p class = "tag-col">Hi! I'm a front end developer who loves responsive design and css . I recently finished a degree in front-end web development at Treehouse and I am excited to pull all my skills to use!</p>
             </div>
+        </div>
         </header>
-        <main>
+        <main class="clearfix">
 
              <h2 id="main-portfolio">PORTFOLIO</h2>
 
-            <section class="portfolio1">
+            <section class="portfolio1 col">
                 <img src="images/portfolio-1.png" alt="Portfolio 1 image">
                 <h3>Marketing Page</h3>
                 <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
             </section>
 
-            <section class="portfolio2">
+            <section class="portfolio2 col">
                 <img src="images/portfolio-2.png "alt="Portfolio 2 image">
                 <h3>Search Page</h3>
                 <p>This project searches through a specific database to find information that the user is trying to look up.</p>
             </section>
 
-            <section class="portfolio3">
+            <section class="portfolio3 col">
                 <img src="images/portfolio-3.png" alt="Portfolio 3 image">
                 <h3>Travel App</h3>
                 <p>This project compares travel times based on different transportaion methods and tells you the best one.</p>
             </section>
 
-            <section class="portfolio4">
+            <section class="portfolio4 col">
                 <img src="images/portfolio-4.png" alt="Portfolio 4 image">
                 <h3>Map of Favorite Spots</h3>
                 <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
             </section>
 
-            <section class="portfolio5">
+            <section class="portfolio5 col">
                 <img src="images/portfolio-5.png" alt="Portfolio 5 image">
                 <h3>Photo Gallery</h3>
                 <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
             </section> 
 
-            <section class="portfolio6">
+            <section class="portfolio6 col">
                 <img src="images/portfolio-6.png" alt="Portfolio 6 image">
                 <h3>Calculator</h3>
                 <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
@@ -80,6 +82,13 @@
                 <ul>
                     <li class="name"><strong>Student name</strong></li>
                     <li class="back-top"><strong><a href="#top">BACK TO TOP</a></strong></li>
+                    <nav class="main-nav clearfix">
+                            <ul class="footer-nav">
+                            <li class="nav-li"><a class="nav-a" href="#">HOME</a></li>
+                            <li class="nav-li"><a class="nav-a" href="#main-portfolio">PORTFOLIO</a></li>
+                            <li class="nav-li"><a class="nav-a" href="#contact">CONTACT</a></li>
+                            </ul>
+                    </nav>
                 </ul>
             </div>
             
